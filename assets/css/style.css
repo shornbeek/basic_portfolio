@@ -34,12 +34,28 @@ body {
     padding-right: 5%;
     margin: 30px 20px 0 20px;
     background-color: rgb(255, 255, 255);
+    /* position: absolute; */
+    margin-bottom: 100px;
+}
+
+.whitebox1 {
+    width: 80%;
+    border: 5px;
+    border-color: black;
+    padding-top: 22px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 30px 20px 0 20px;
+    background-color: rgb(255, 255, 255);
     position: absolute;
+    margin-bottom: 100px;
+   
 }
 
 img {
     float: left;
     padding: 20px;
+    
 }
 
 .copyright {
