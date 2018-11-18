@@ -7,7 +7,12 @@ body {
     background-image: url("assets/images/just-waves.png");
     background-color: #cccccc; 
     background: url('assets/css/images/grid.png'); */
-    background: url('https://cdn.hipwallpaper.com/i/39/8/B6CiYg.jpg');
+    /* background: url('https://cdn.hipwallpaper.com/i/39/8/B6CiYg.jpg'); */
+ background: url('https://www.fosterforward.net/wp-content/uploads/718653_subtle-backgrounds-on-pinterest_1800x1200_h.jpg');
+    
+    background-size: auto;
+    
+
     
 }
 
