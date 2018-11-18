@@ -2,11 +2,13 @@
 
 
 body {
-    /**
+    /* *
     background-image: url("just-waves.png");
     background-image: url("assets/images/just-waves.png");
-    **/
-    background-color: #cccccc;
+    background-color: #cccccc; 
+    background: url('assets/css/images/grid.png'); */
+    background: url('https://cdn.hipwallpaper.com/i/39/8/B6CiYg.jpg');
+    
 }
 
 
@@ -66,9 +68,7 @@ img {
     width: 100%;
     background-color: gray;
     color: white;
-    text-align: center;
-    
-    
+    text-align: center;    
 }
 
 .blueline {
@@ -133,7 +133,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: rgb(22, 100, 245);
     color: white;
     padding: 12px 20px;
     border: none;
