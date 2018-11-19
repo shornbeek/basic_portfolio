@@ -1,5 +1,8 @@
 /* Add a black background color to the top navigation */
 
+* { 
+font-family: 'Raleway', sans-serif;
+}
 
 body {
     /* *
@@ -8,12 +11,8 @@ body {
     background-color: #cccccc; 
     background: url('assets/css/images/grid.png'); */
     /* background: url('https://cdn.hipwallpaper.com/i/39/8/B6CiYg.jpg'); */
- background: url('https://www.fosterforward.net/wp-content/uploads/718653_subtle-backgrounds-on-pinterest_1800x1200_h.jpg');
-    
-    background-size: auto;
-    
-
-    
+ background: url('https://www.fosterforward.net/wp-content/uploads/718653_subtle-backgrounds-on-pinterest_1800x1200_h.jpg');  
+    background-size: auto;  
 }
 
 
@@ -32,8 +31,7 @@ body {
 }
 
 .whitebox {
-    width: 80%;
-    height: 80%;
+   
     border: 5px;
     border-color: black;
     padding-top: 22px;
@@ -46,7 +44,7 @@ body {
 }
 
 .whitebox1 {
-    width: 80%;
+   
     border: 5px;
     border-color: black;
     padding-top: 22px;
@@ -66,12 +64,11 @@ img {
 }
 
 .copyright {
-    height: 45px;
+    height: 20px;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: gray;
     color: white;
     text-align: center;    
 }
@@ -82,7 +79,7 @@ img {
     width: 100%;
     background-color: teal;
     left: 0;
-    bottom: 25px;  
+    bottom: 0;  
 }
 
 .vl {
@@ -158,7 +155,7 @@ input[type=submit]:hover {
 }
 
 .bottom {
-    padding-bottom: 25%;
+    padding-bottom: 12%;
 }
 
 
