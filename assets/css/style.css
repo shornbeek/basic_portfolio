@@ -52,15 +52,26 @@ body {
     margin: 30px 20px 0 20px;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    margin-bottom: 100px;
-   
+    margin-bottom: 100px; 
 }
 
-img {
+/* .whitebox2 {
+    border: 5px;
+    border-color: black;
+    padding-top: 22px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    background-color: rgb(255, 255, 255);
+    position: block;
+   
+} */
+
+.face {
     float: left;
     padding: 20px;
     
-}
+} 
 
 .copyright {
     height: 20px;
@@ -144,7 +155,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: lightskyblue;
 }
 
 /* Add a background color and some padding around the form */
@@ -157,6 +168,37 @@ input[type=submit]:hover {
     padding-bottom: 12%;
 }
 
+.pd {
+    
+    padding: 5px; 
+    width: 250px;
+    position: relative;
+}
 
+.parent {
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto; 
+    /* border: 2px solid blue;
+    background-color: rgb(233, 233, 233); */
+    position: relative;
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+
+/* .parent2 {
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto; 
+    border: 2px solid red;
+    background-color: rgb(233, 233, 233);
+    position: relative;
+    content: "";
+    clear: both;
+    display: table;
+    
+} */
 
 
